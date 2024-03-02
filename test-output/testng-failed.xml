@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="edge"/>
+  <listeners>
+    <listener class-name="utils.SuiteListener"/>
+  </listeners>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="qa.tests.LoginSampleTests">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="setUpDriver"/>
+          <include name="enterLoginCredentials"/>
+        </methods>
+      </class> <!-- qa.tests.LoginSampleTests -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
