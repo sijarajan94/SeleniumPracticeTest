@@ -15,10 +15,10 @@
       <class name="qa.tests.LoginSampleTests"/>
     </classes>
   </test>
-   <test name="EdgeTest" thread-count="5"> -->
+   <test name="EdgeTest" thread-count="5"> 
   <parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="qa.tests.LoginSampleTests"/>
     </classes>
-  </test>
+  </test> -->
 </suite> <!-- Suite -->
